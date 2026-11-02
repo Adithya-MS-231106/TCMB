@@ -1,0 +1,103 @@
+{
+    "experiment": "TCMB merge-budget calibration",
+    "calibration_split": "FLORES+ dev",
+    "evaluation_split": "FLORES+ devtest",
+    "batch_size": 32,
+    "calibration_method": "Median feasible merge operations per language, multiplied by the specified budget fraction.",
+    "budget_levels": {
+        "conservative": 0.25,
+        "moderate": 0.5,
+        "aggressive": 0.75
+    },
+    "languages": {
+        "eng_Latn": {
+            "profiled_batches": 32,
+            "median_feasible_merges": 140.5,
+            "min_feasible_merges": 15,
+            "max_feasible_merges": 200,
+            "budgets": {
+                "conservative": 35,
+                "moderate": 70,
+                "aggressive": 105
+            }
+        },
+        "tam_Taml": {
+            "profiled_batches": 32,
+            "median_feasible_merges": 542.5,
+            "min_feasible_merges": 104,
+            "max_feasible_merges": 696,
+            "budgets": {
+                "conservative": 135,
+                "moderate": 271,
+                "aggressive": 406
+            }
+        },
+        "tel_Telu": {
+            "profiled_batches": 32,
+            "median_feasible_merges": 520.5,
+            "min_feasible_merges": 74,
+            "max_feasible_merges": 646,
+            "budgets": {
+                "conservative": 130,
+                "moderate": 260,
+                "aggressive": 390
+            }
+        },
+        "kan_Knda": {
+            "profiled_batches": 32,
+            "median_feasible_merges": 581.0,
+            "min_feasible_merges": 96,
+            "max_feasible_merges": 769,
+            "budgets": {
+                "conservative": 145,
+                "moderate": 290,
+                "aggressive": 435
+            }
+        },
+        "mal_Mlym": {
+            "profiled_batches": 32,
+            "median_feasible_merges": 638.0,
+            "min_feasible_merges": 86,
+            "max_feasible_merges": 797,
+            "budgets": {
+                "conservative": 159,
+                "moderate": 319,
+                "aggressive": 478
+            }
+        },
+        "hin_Deva": {
+            "profiled_batches": 32,
+            "median_feasible_merges": 255.0,
+            "min_feasible_merges": 46,
+            "max_feasible_merges": 337,
+            "budgets": {
+                "conservative": 63,
+                "moderate": 127,
+                "aggressive": 191
+            }
+        },
+        "cmn_Hans": {
+            "profiled_batches": 32,
+            "median_feasible_merges": 626.5,
+            "min_feasible_merges": 106,
+            "max_feasible_merges": 808,
+            "budgets": {
+                "conservative": 156,
+                "moderate": 313,
+                "aggressive": 469
+            }
+        },
+        "jpn_Jpan": {
+            "profiled_batches": 32,
+            "median_feasible_merges": 725.5,
+            "min_feasible_merges": 104,
+            "max_feasible_merges": 934,
+            "budgets": {
+                "conservative": 181,
+                "moderate": 362,
+                "aggressive": 544
+            }
+        }
+    },
+    "created_utc": "2026-11-02T16:32:19.615712+00:00"
+}

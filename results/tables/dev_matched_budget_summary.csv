@@ -1,0 +1,9 @@
+language,batch_count,fixed_budget_per_batch,fixed_total_budget,original_adaptive_total,matched_adaptive_total,minimum_matched_budget,maximum_matched_budget
+eng_Latn,32,70,2240,2230,2240,37,105
+tam_Taml,32,271,8672,8707,8672,135,396
+tel_Telu,32,260,8320,8405,8320,130,367
+kan_Knda,32,290,9280,9282,9280,178,433
+mal_Mlym,32,319,10208,10206,10208,180,478
+hin_Deva,32,127,4064,4068,4064,63,191
+cmn_Hans,32,313,10016,9994,10016,171,469
+jpn_Jpan,32,362,11584,11608,11584,181,543

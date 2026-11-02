@@ -1,0 +1,9 @@
+language,batches,initial_tokens,final_tokens,total_merge_operations,total_tokens_saved,mean_merges_per_batch,median_merges_per_batch,min_merges_per_batch,max_merges_per_batch,batches_hit_cap
+eng_Latn,32,29100,24086,4339,5014,135.59375,141,15,200,0
+tam_Taml,32,39361,19268,17360,20093,542.5,544,104,696,0
+tel_Telu,32,39935,20248,16341,19687,510.65625,525,74,646,0
+kan_Knda,32,42275,19683,18464,22592,577.0,581,96,769,0
+mal_Mlym,32,41235,17913,19818,23322,619.3125,641,86,797,0
+hin_Deva,32,37156,27424,8109,9732,253.40625,258,46,337,0
+cmn_Hans,32,32101,7646,19811,24455,619.09375,631,106,808,0
+jpn_Jpan,32,32737,7505,22966,25232,717.6875,726,104,934,0

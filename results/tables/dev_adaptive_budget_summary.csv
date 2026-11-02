@@ -1,0 +1,9 @@
+language,language_name,batch_count,mean_adaptive_budget,min_adaptive_budget,max_adaptive_budget,mean_base_budget,total_adaptive_budget
+eng_Latn,English,32,69.6875,36,105,70,2230
+tam_Taml,Tamil,32,272.09375,136,397,271,8707
+tel_Telu,Telugu,32,262.65625,130,370,260,8405
+kan_Knda,Kannada,32,290.0625,178,433,290,9282
+mal_Mlym,Malayalam,32,318.9375,180,478,319,10206
+hin_Deva,Hindi,32,127.125,63,191,127,4068
+cmn_Hans,Chinese,32,312.3125,170,469,313,9994
+jpn_Jpan,Japanese,32,362.75,181,544,362,11608
