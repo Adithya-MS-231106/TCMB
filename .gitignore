@@ -1,32 +1,9 @@
-
-# Python environment
+﻿# Python environments
 .venv/
 venv/
 __pycache__/
 *.py[cod]
-
-# Downloaded datasets
-data/
-*.arrow
-*.parquet
-
-# Downloaded model weights
-models/
-*.safetensors
-*.bin
-*.pt
-*.pth
-
-# Temporary files
-.ipynb_checkpoints/
-*.log
-.DS_Store
-Thumbs.db
-
-# Secrets
-.env
-.env.*
-!.env.example
+*.egg-info/
 
 # Downloaded datasets
 data/
@@ -34,26 +11,30 @@ datasets/
 *.arrow
 *.parquet
 
-# Downloaded model weights
+# Model weights
 models/
 *.safetensors
 *.bin
 *.pt
 *.pth
 
-# Python environment
-.venv/
-venv/
-__pycache__/
-*.py[cod]
+# IDE settings (local machine-specific)
+.vscode/
+
+# Temporary files and caches
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+.DS_Store
+Thumbs.db
+
+# Build outputs
+build/
+dist/
 
 # Secrets
 .env
 .env.*
 !.env.example
-
-# Temporary files
-.ipynb_checkpoints/
-*.log
-.DS_Store
-Thumbs.db

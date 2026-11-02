@@ -1,0 +1,9 @@
+language_code,language,sentences,original_xlmr_mean,converted_xlmr_mean,dynamic_bpe_mean,conversion_change_percent,dynamic_reduction_vs_converted_percent,dynamic_reduction_vs_original_percent_diagnostic,total_merges,preservation_rate
+eng_Latn,English,1012,30.2974,30.4239,24.9457,0.4175,18.0064,17.664,4745,100.0
+tam_Taml,Tamil,1012,40.8666,41.1453,19.7974,0.6819,51.8841,51.556,18611,100.0
+tel_Telu,Telugu,1012,39.8982,40.9694,20.6907,2.6847,49.4972,48.1412,17052,100.0
+kan_Knda,Kannada,1012,40.9901,42.9783,19.8498,4.8503,53.8144,51.5742,19245,100.0
+mal_Mlym,Malayalam,1012,41.6966,43.1877,18.5899,3.5761,56.9555,55.4162,21061,100.0
+hin_Deva,Hindi,1012,37.7688,38.2698,28.2866,1.3265,26.0865,25.106,8440,100.0
+cmn_Hans,Chinese,1012,29.081,32.666,7.7974,12.3276,76.1298,73.1872,20422,100.0
+jpn_Jpan,Japanese,1012,33.748,34.3142,7.7184,1.6777,77.5067,77.1294,24314,100.0

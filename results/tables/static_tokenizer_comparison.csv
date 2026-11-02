@@ -1,0 +1,9 @@
+language,sentences,original_xlmr_mean,converted_xlmr_mean,conversion_token_change_percent
+eng_Latn,1012,30.2974,30.4239,0.4175
+tam_Taml,1012,40.8666,41.1453,0.6819
+tel_Telu,1012,39.8982,40.9694,2.6847
+kan_Knda,1012,40.9901,42.9783,4.8503
+mal_Mlym,1012,41.6966,43.1877,3.5761
+hin_Deva,1012,37.7688,38.2698,1.3265
+cmn_Hans,1012,29.081,32.666,12.3276
+jpn_Jpan,1012,33.748,34.3142,1.6777
