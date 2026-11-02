@@ -1,0 +1,59 @@
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Downloaded datasets
+data/
+*.arrow
+*.parquet
+
+# Downloaded model weights
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Temporary files
+.ipynb_checkpoints/
+*.log
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Downloaded datasets
+data/
+datasets/
+*.arrow
+*.parquet
+
+# Downloaded model weights
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+.ipynb_checkpoints/
+*.log
+.DS_Store
+Thumbs.db

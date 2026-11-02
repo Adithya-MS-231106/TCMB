@@ -1,0 +1,9 @@
+language,sentence_count,mean_tokens,standard_deviation,mean_difference_vs_english,difference_standard_deviation,relative_difference_percent,bootstrap_95ci_lower,bootstrap_95ci_upper
+eng_Latn,1012,30.2974,10.2,0.0,0.0,0.0,0.0,0.0
+tam_Taml,1012,40.8666,14.9692,10.5692,7.6619,34.88,10.1057,11.0484
+tel_Telu,1012,39.8982,14.6101,9.6008,7.6864,31.69,9.1314,10.0761
+kan_Knda,1012,40.9901,15.3125,10.6927,7.9401,35.29,10.2154,11.1838
+mal_Mlym,1012,41.6966,15.5703,11.3992,8.0042,37.62,10.9032,11.8953
+hin_Deva,1012,37.7688,13.5005,7.4713,6.1758,24.66,7.0919,7.8567
+cmn_Hans,1012,29.081,11.1946,-1.2164,6.4524,-4.01,-1.6117,-0.8103
+jpn_Jpan,1012,33.748,11.947,3.4506,6.063,11.39,3.0741,3.8281

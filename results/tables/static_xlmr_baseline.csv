@@ -1,0 +1,9 @@
+language,sentences,total_tokens,average_tokens_per_sentence,total_words,fertility_tokens_per_word,characters_per_token,maximum_sequence_length
+eng_Latn,1012,30661,30.2974,21901,1.4,4.304,84
+tam_Taml,1012,41357,40.8666,16775,2.4654,3.7269,115
+tel_Telu,1012,40377,39.8982,16938,2.3838,3.2808,123
+kan_Knda,1012,41482,40.9901,16100,2.5765,3.3277,125
+mal_Mlym,1012,42197,41.6966,14930,2.8263,3.539,120
+hin_Deva,1012,38222,37.7688,25643,1.4905,3.4289,112
+cmn_Hans,1012,29430,29.081,2069,14.2243,1.4695,77
+jpn_Jpan,1012,34153,33.748,1081,31.5939,1.6673,91
