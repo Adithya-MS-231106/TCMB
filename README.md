@@ -112,7 +112,7 @@ Model weights are not included in this repository.
 
 \- \[x] Baseline visualizations
 
-\- \[ ] Dynamic tokenization baseline
+\- \[x] Dynamic tokenization baseline
 
 \- \[ ] TCMB implementation
 
