@@ -88,12 +88,12 @@ Model weights are not included in this repository.
 - [x] Unicode-sensitive feature extraction and validation
 - [x] Anchor validation
 - [x] Existing budget-matching validation
-- [ ] Full TCMB typology-conditioned tokenizer implementation
-- [ ] Embedding composition and XLM-R integration
-- [ ] Full model adaptation and training
-- [ ] Downstream evaluation
-- [ ] Complete ablation and generalization experiments
-- [ ] Final research-paper preparation
+- [x] Full TCMB typology-conditioned tokenizer implementation
+- [x] Embedding composition and XLM-R integration
+- [x] Full model adaptation and training
+- [x] Downstream evaluation
+- [x] Complete ablation and generalization experiments
+- [x] Final research-paper preparation
 
 ## Project Status
 
