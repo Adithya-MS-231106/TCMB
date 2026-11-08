@@ -4,6 +4,7 @@ import sys
 import csv
 import json
 import statistics
+import unicodedata
 
 from datasets import load_from_disk
 from transformers import AutoTokenizer
@@ -71,7 +72,7 @@ def calculate_batch_features(tokenizer, sentences):
             if not char.isspace():
                 non_whitespace_chars += 1
 
-            if not char.isalnum() and not char.isspace():
+            if unicodedata.category(char).startswith("P"):
                 punctuation_count += 1
 
     token_density = (

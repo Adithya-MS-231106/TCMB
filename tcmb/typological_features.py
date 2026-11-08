@@ -1,8 +1,4 @@
-"""Transparent, manually specified typological metadata for TCMB experiments.
-
-Values are coarse research annotations, not authoritative linguistic claims.
-Replace/refine them with documented WALS/URIEL features before publication.
-"""
+import unicodedata
 from dataclasses import dataclass, asdict
 
 @dataclass(frozen=True)
@@ -24,6 +20,11 @@ PROFILES = {
     "cmn_Hans": TypologicalProfile("cmn_Hans", "Han", "isolating", False, False, "Simplified Chinese"),
     "jpn_Jpan": TypologicalProfile("jpn_Jpan", "Japanese", "agglutinative", False, False, "Japanese"),
 }
+def _is_unicode_punctuation(char: str) -> bool:
+    return unicodedata.category(char).startswith("P")
+
+def _is_word_char(char: str) -> bool:
+    return char.isalpha() or unicodedata.category(char).startswith("M")
 
 def get_profile(language: str):
     if language not in PROFILES:
@@ -36,10 +37,23 @@ def profile_as_dict(language: str):
 def sentence_complexity(text: str):
     """Small observable complexity feature vector; not a linguistic parser."""
     text = str(text)
+    total_chars = max(len(text), 1)
+    alphabetic_count = sum(_is_word_char(ch) for ch in text)
+    digit_count = sum(ch.isdigit() for ch in text)
+    whitespace_count = sum(ch.isspace() for ch in text)
+    punctuation_count = sum(_is_unicode_punctuation(ch) for ch in text)
+    mark_count = sum(unicodedata.category(ch).startswith("M") for ch in text)
     return {
         "char_count": len(text),
         "whitespace_word_count": len(text.split()),
-        "digit_ratio": sum(ch.isdigit() for ch in text) / max(len(text), 1),
-        "punctuation_ratio": sum(not ch.isalnum() and not ch.isspace() for ch in text) / max(len(text), 1),
-        "whitespace_ratio": sum(ch.isspace() for ch in text) / max(len(text), 1),
+        "alphabetic_count": alphabetic_count,
+        "alphabetic_ratio": alphabetic_count / total_chars,
+        "digit_count": digit_count,
+        "digit_ratio": digit_count / total_chars,
+        "punctuation_count": punctuation_count,
+        "punctuation_ratio": punctuation_count / total_chars,
+        "whitespace_count": whitespace_count,
+        "whitespace_ratio": whitespace_count / total_chars,
+        "mark_count": mark_count,
+        "mark_ratio": mark_count / total_chars,
     }
